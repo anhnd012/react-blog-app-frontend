@@ -1,0 +1,77 @@
+.setting{
+    flex: 9;
+    margin: 20px;
+}
+
+.header-update-account {
+    display: flex;
+    justify-content: space-between;
+    color: lightcoral;
+    margin-bottom: 40px;
+}
+
+.titleUpdate{
+    font-size: 28px;
+    
+}
+
+.img-account-container {
+    display: flex;
+    align-items: center;
+}
+
+.img-account-container  i{
+    font-size: 20px;
+    margin-left: 15px;
+    color: lightcoral
+} 
+
+.img-account{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titleProfile {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container p{
+    font-size: 20px;
+    
+    /* font-style: bold; */
+}
+
+.form-container input {
+    margin: 20px 0;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    outline: none;
+    font-size: 20px;
+    color: gray
+}
+
+.btn-updateAccount{
+    display: inline-block;
+    margin-top: 20px;
+    align-self: center;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    cursor: pointer;
+}
+
+.titleDelete{
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+.post{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    margin: 20px; */    
+
+    width: 385px;
+    margin: 0px 25px 40px 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgPost {
+    width: 385px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.categoriesPost{
+    display: flex;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    margin:20px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.time{
+    margin-bottom: 10px
+}
+
+.categoriesPost{
+    margin-top: 10px;
+}
+
+.category{
+    margin-right: 10px;
+}
